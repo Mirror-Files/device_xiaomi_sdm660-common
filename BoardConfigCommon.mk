@@ -142,6 +142,8 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
+TARGET_USES_OLD_DISPLAY_HAL := true
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
